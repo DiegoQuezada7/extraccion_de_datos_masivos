@@ -4,6 +4,7 @@ Repositorio grupal para la Etapa 3.
 
 ## Experimentos
 
+- [Experimento 2 · Ordenamiento e índice primario](Experimento%202/README.md)
 - [Experimento 3 · Ingesta por lotes](Experimento%203/README.md)
 
 ## Preparación del entorno

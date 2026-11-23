@@ -1,0 +1,7 @@
+consulta,orden,codigo_organismo,filas_resultado,mediana_ms,mediana_filas_leidas,mediana_bytes_leidos,mediana_marcas_seleccionadas
+organismo,sin_orden,111870,32318,6,777199,10156757,95
+organismo,organismo,111870,32318,4,40960,577621,5
+organismo,organismo_fecha,111870,32318,3,40960,577621,5
+organismo_y_fecha,sin_orden,111870,4422,6,777199,3434634,95
+organismo_y_fecha,organismo,111870,4422,4,40960,659541,5
+organismo_y_fecha,organismo_fecha,111870,4422,4,40960,277000,5

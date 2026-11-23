@@ -1,0 +1,15 @@
+Expression ((Project names + Projection))
+  Aggregating
+    Expression (Before GROUP BY)
+      Expression ((WHERE + Change column names to column identifiers))
+        ReadFromMergeTree (bigdata.ord_67c23ea5f1_organismo_fecha)
+        Indexes:
+          PrimaryKey
+            Keys:
+              organismo
+              fecha
+            Condition: and((fecha in (-Inf, 20154]), and((fecha in [20148, +Inf)), (organismo in [\'111870\', \'111870\'])))
+            Parts: 1/1
+            Granules: 5/95
+            Search Algorithm: binary search
+            Ranges: 1
