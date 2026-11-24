@@ -1,0 +1,26 @@
+# Datos masivos y estado local (no excluir globalmente CSV ni JSON).
+/datos/
+/originales/
+/normalizados/
+/normalizados_2024/
+/temporales/
+/zip/
+*.zip
+*.csv
+!/resultados/**/*.csv
+*.part
+*.tmp
+*.lock
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+/docker-data/
+/clickhouse_data/
+/volumes/

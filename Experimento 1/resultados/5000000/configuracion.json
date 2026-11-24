@@ -1,0 +1,11 @@
+{
+  "inicio": "2026-11-21T16:07:37",
+  "identificador": "baf59e519ee14ebd95800b1fc5ff3cb4",
+  "tabla": "bigdata.chilecompra_escalabilidad",
+  "registros": 5000000,
+  "repeticiones": 100,
+  "calentamiento": 5,
+  "max_threads": 12,
+  "use_query_cache": 0,
+  "consulta_sql": "SELECT\n    OrganismoPublico,\n    count() AS registros,\n    round(sum(toFloat64OrZero(MontoTotalOC_PesosChilenos)), 0)\n        AS monto_total\nFROM bigdata.chilecompra_escalabilidad\nGROUP BY OrganismoPublico\nORDER BY registros DESC\nLIMIT 10"
+}
